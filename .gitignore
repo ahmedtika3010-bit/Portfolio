@@ -1,0 +1,14 @@
+node_modules/
+.vercel/
+
+# Secrets (the Vercel CLI also drops a .env.local with tokens here)
+.env
+.env.*
+!.env.example
+
+# Runtime data when running locally: your content, messages, the admin password hash and the JWT secret.
+data/
+uploads/
+
+*.log
+.DS_Store
